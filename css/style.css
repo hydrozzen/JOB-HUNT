@@ -1,0 +1,123 @@
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.video-banner {
+    position: relative;
+    height: 100vh;
+   
+}
+
+.video-background {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.banner-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+    text-align: center;
+}
+
+.banner-content h1 {
+    font-size: 2.3rem;
+    margin: 0;
+}
+
+.banner-content p {
+    font-size: 1.5rem;
+}
+
+.btn {
+    background-color:#008181;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+.btn1{
+    background-color: transparent; /* Transparent background */
+    color: white; /* Text color */
+    padding: 10px 20px; /* Padding */
+    font-size: 1rem; /* Font size */
+    cursor: pointer; /* Cursor style */
+    margin: 10px; /* Margin */
+    border-radius: 5px; /* Rounded corners */
+    border: 2px solid white; /* White border */
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition for background and color */
+}
+
+.btn:hover {
+    background-color:#008181bd;
+    color: white;
+}
+
+
+.vidtext{
+    font-family: Roboto;
+    font-size: 56px;
+    line-height: 59.36px;
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.card-img, .card-img-top{
+    width: 45%!important;
+    margin-left: 27%!important;
+}
+
+.textof4{
+    color: black;
+    text-align: center;
+    font-weight: 500;
+    
+}
+.four-box-card {
+padding: 30px 0; /* Top and bottom padding */
+color: white; /* Text color for visibility */
+}
+
+.fourbox-card-item {
+max-width: 200px; /* Set maximum width to decrease size */
+margin: auto; /* 5Center cards */
+border-radius: 17%;
+}
+
+.cardbox-bottom {
+transition: transform 0.3s, border-color 0.3s; /* Transition for hover effects */
+border: 2px solid transparent; /* Initial border color */
+padding: 10px; /* Adjust padding */
+border-radius: 12%;
+margin-top: -34%;
+z-index: 999;
+}
+
+.cardbox-bottom:hover {
+transform: scale(0.95); /* Slightly shrink effect on hover */
+border-color: #068484; /* Change border color on hover */
+border-radius: 12%;
+}
+
+.pof4img {
+transition: transform 0.3s; /* Add transition for smooth effect */
+margin-top: 10px; /* Space above the paragraph */
+white-space: nowrap;
+margin-left: -12%;
+}
+
+.cardbox-bottom:hover + center .pof4img {
+transform: translateY(-10px); /* Move the paragraph up on hover */
+}
+.navbar-toggler-icon{
+    background-image: none!important;
+}
